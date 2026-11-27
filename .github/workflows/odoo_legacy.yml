@@ -1,0 +1,11 @@
+name: Odoo Legacy (deprecated in 18.0)
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  legacy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Legacy workflow kept in 17.0, removed from 18.0"
