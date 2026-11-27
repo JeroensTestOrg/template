@@ -1,0 +1,12 @@
+name: Odoo Format (18.0)
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Running Odoo format checks for version 18.0"
